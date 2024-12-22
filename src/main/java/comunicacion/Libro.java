@@ -87,7 +87,6 @@ public class Libro extends Escrito{
         return super.resumen()+ "\n"+
         co_autor+ "\n"+
         editorial+"\n"+
-        edicion+"\n"+
-        interpretacion;
+        edicion;
     }
 }

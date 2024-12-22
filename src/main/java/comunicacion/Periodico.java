@@ -78,7 +78,6 @@ public class Periodico extends Escrito{
     public String toString() {
         return super.resumen()+ "\n"+
         fecha+ "\n"+
-        primicia+"\n"+
-        interpretacion;
+        primicia;
     }
 }

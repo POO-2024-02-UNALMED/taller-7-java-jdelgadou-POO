@@ -41,7 +41,7 @@ public class Alfabeto extends Pictograma{
                 r+=letras[i];
             }
             else{
-                r+=letras[i]+" ,";
+                r+=letras[i]+", ";
             }
         }
         return r;

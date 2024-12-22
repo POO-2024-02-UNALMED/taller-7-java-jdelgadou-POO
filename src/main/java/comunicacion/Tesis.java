@@ -96,7 +96,6 @@ public class Tesis extends Escrito{
         idea+ "\n"+
         argumentos +"\n"+
         conclusion + "\n"+
-        referencias +"\n"+
-        interpretacion;
+        referencias;
     }
 }

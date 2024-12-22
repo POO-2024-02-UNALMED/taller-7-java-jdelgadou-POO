@@ -69,7 +69,6 @@ public class Fabula extends Escrito{
     @Override
     public String toString() {
         return super.resumen()+ "\n"+
-        ensenanzas+ "\n"+
-        interpretacion;
+        ensenanzas;
     }
 }
