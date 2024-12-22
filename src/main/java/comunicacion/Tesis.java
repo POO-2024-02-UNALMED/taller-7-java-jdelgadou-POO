@@ -94,7 +94,7 @@ public class Tesis extends Escrito{
     public String toString() {
         return super.resumen()+ "\n"+
         idea+ "\n"+
-        argumentos +"\n"+
+        argumentos.length +"\n"+
         conclusion + "\n"+
         referencias;
     }
